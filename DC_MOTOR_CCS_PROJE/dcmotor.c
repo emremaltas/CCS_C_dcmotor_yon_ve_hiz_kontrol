@@ -1,5 +1,5 @@
 /*
-   EMRE MALTAS(Þ) Biyomedikal Muhendisligi 4. Sinif Ögrencisi  
+   EMRE MALTAS(Ãž) Biyomedikal Muhendisligi 4. Sinif Ã–grencisi  
 */
 
 
@@ -92,9 +92,9 @@ void adc_oku()
    adc_araligi();
 }
 
-unsigned int map(unsigned long int A,int B ,int C,int D,int E)
+unsigned int map(unsigned long int A,unsigned long int B,unsigned long int C,unsigned long int D,unsigned long int E)
 {
-   return (A*E)/C;
+   return D + ((E - D ) / (C / A));
 }
 void motor_sur()
 {
